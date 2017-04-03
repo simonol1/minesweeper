@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'trebuchet ms', 'sans-serif';
 }
 
 body {
@@ -8,6 +8,7 @@ body {
   align-items: center;
   justify-content: flex-center;
   flex-direction: column;
+  background-color: lightSteelBlue;
 }
 
 #message, #notes {
@@ -20,19 +21,27 @@ body {
   font-size: 1.5rem;
 }
 
+
+.resetGame {
+  padding: 5px;
+  margin-top: 20px;
+  font-family: 'trebuchet ms';
+  font-size: 20px;
+}
+
 .board {
   display: flex;
   flex-wrap: wrap;
 }
 
 .board div {
-  color: green;
+  color: yellow;
   font-size: 2rem;
   width: 75px;
   height: 75px;
   border: 1px #ccc dotted;
   border-radius: 10%;
-  background-color: white;
+  background-color: steelBlue;
   margin: 3px;
   display: flex;
   align-items: center;

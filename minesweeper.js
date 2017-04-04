@@ -62,7 +62,14 @@ function checkForWin () {
     // player wins and the winner message is displayed
      lib.displayMessage('You win!');
       return;
+
+//Play sound for winning
+function audioClip(type) {
+  if (type==='winner') {
+    var audio = document.getElementsByTagName('audio')[0];
   }
+  audio.play();
+}
 
    //reset the game
 function resetGame(){
